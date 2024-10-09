@@ -1,0 +1,15 @@
+textarea {
+  display: block;
+  width: 90%;
+  resize: none;
+  padding: 20px;
+  border: 1.5px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+p {
+    width: 90%;
+    text-align: right;
+    margin-top: 15px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Restricted Textarea</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="I am required to create a textarea that tracks and displays the number of characters typed by the user, along with a maximum character limit. As the user types, the character count will update dynamically. Once the limit is reached, the textarea will prevent further input and the border will turn red to visually indicate the limit has been hit."
+    />
+    <meta name="author" content="Juan Guadarrama" />
+  </head>
+  <body>
+    <section>
+      <h2>Write your Message</h2>
+      <textarea
+        required=""
+        placeholder="start typing..."
+        maxlength="60"
+        id="message"
+      ></textarea>
+    <p id="result"></p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
